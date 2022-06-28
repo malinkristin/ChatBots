@@ -6,8 +6,8 @@ Vergleich von Chat Bot Frameworks mit Künstlicher Intelligenz - Wissenschaftlic
 - flow_ai
 
 ## Telegram Links
-- Botpress Bot (IMDb Friend Bot): t.me/imdb_friend_bot
-- Flow.ai Bot (IMDb Foe Bot): t.me/imdb_foe_bot
+- Botpress Bot (IMDb Friend Bot): [t.me/imdb_friend_bot](https://www.t.me/imdb_friend_bot)
+- Flow.ai Bot (IMDb Foe Bot): [t.me/imdb_foe_bot](https://www.t.me/imdb_foe_bot)
 
 ## Anleitung - Botpress Bot
 
