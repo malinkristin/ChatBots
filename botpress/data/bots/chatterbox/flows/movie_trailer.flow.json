@@ -1,0 +1,25 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "description": "",
+  "nodes": [
+    {
+      "id": "8ad1582dc6",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-gM6SBT",
+        "trailer_for_movie {\"slots\":\"{{event.nlu.slots}}\"}"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Feeback.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

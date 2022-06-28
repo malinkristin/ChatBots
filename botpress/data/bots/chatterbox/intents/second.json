@@ -1,0 +1,23 @@
+{
+  "name": "second",
+  "utterances": {
+    "en": [
+      "second",
+      "second one",
+      "number two",
+      "number 2",
+      "the second one",
+      "2",
+      "middle one",
+      "middle",
+      "option two",
+      "option 2",
+      "B",
+      "option B"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

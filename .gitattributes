@@ -1,0 +1,4 @@
+botpress/bp filter=lfs diff=lfs merge=lfs -text
+botpress/bin/messaging filter=lfs diff=lfs merge=lfs -text
+botpress/bin/nlu filter=lfs diff=lfs merge=lfs -text
+botpress/bin/studio filter=lfs diff=lfs merge=lfs -text

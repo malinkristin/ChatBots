@@ -1,0 +1,82 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "description": "",
+  "nodes": [
+    {
+      "id": "2f4968c4d2",
+      "name": "movies",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "rec_movie {\"name\":\"\",\"value\":\"\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "c3751f6251",
+      "name": "tv_shows",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "rec_show {\"name\":\"\",\"value\":\"\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "a398cd22fc",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-j7O8XB"
+      ],
+      "onReceive": [],
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'movie'",
+          "conditionType": "intent",
+          "node": "movies"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'tv_show'",
+          "conditionType": "intent",
+          "node": "tv_shows"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "error"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "4a0fbce6f4",
+      "name": "error",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "entry"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-gnCIyQ"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

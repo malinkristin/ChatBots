@@ -1,0 +1,33 @@
+{
+  "name": "actor_search",
+  "utterances": {
+    "en": [
+      "I want to know about an actor",
+      "I want to search for an actor",
+      "I want to look for an actress",
+      "more about an actor",
+      "actor",
+      "actress",
+      "celebrities",
+      "I'm looking for a person",
+      "search for a person",
+      "let me search for an actor",
+      "can you search for an actor",
+      "can you search for a person?",
+      "actor please",
+      "actress please",
+      "I want to know about an actor",
+      "I want to know about an actress",
+      "I'm looking for an actor",
+      "I want a person",
+      "I'm searching a person",
+      "I want to search for an actor",
+      "Let me look for an actor",
+      "looking for an actor"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

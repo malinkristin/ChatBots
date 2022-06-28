@@ -1,0 +1,23 @@
+{
+  "name": "first",
+  "utterances": {
+    "en": [
+      "first",
+      "the first",
+      "first one",
+      "number one",
+      "number 1",
+      "1 uno",
+      "the former",
+      "onenumero uno",
+      "option one",
+      "option a",
+      "A",
+      "the first one"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

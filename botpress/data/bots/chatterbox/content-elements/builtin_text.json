@@ -1,0 +1,306 @@
+[
+  {
+    "id": "builtin_text-iVBzXn",
+    "formData": {
+      "text$en": "I'm sorry, I did not understand. Please ask me something else.",
+      "typing$en": true,
+      "text$fr": "Pardon, je n'ai pas compris. Veuillez me poser un autre question.",
+      "typing$fr": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-01T18:28:03.566Z",
+    "modifiedOn": "2019-07-01T18:31:39.862Z"
+  },
+  {
+    "id": "builtin_text-error",
+    "formData": {
+      "text$en": "😯 Oops! We've got a problem. Please try something else while we're fixing it 🔨",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-09-03T18:58:10.702Z",
+    "modifiedOn": "2019-09-03T18:58:10.702Z"
+  },
+  {
+    "id": "builtin_text-c80Q_c",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Hello!",
+      "variations$en": [
+        "Hi, there!",
+        "Hello, there!",
+        "Good to see you!"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-21T12:32:58.093Z",
+    "modifiedOn": "2022-06-21T12:32:58.093Z"
+  },
+  {
+    "id": "builtin_text-E3rVS8",
+    "formData": {
+      "text$en": "I found {{temp.response.title}}.",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-21T13:55:05.710Z",
+    "modifiedOn": "2022-06-21T13:57:00.512Z"
+  },
+  {
+    "id": "builtin_text-nQJvPm",
+    "formData": {
+      "text$en": "What can I do for you?",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "What can I help you with?",
+        "What can I do for you today?"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-21T14:04:30.955Z",
+    "modifiedOn": "2022-06-24T12:27:52.964Z"
+  },
+  {
+    "id": "builtin_text-E7Mchr",
+    "formData": {
+      "text$en": "Okay, what title are you looking for?",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Alright, what is the name?",
+        "Sure! What am I searching for?",
+        "Okay, what's the title?"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-24T12:30:54.442Z",
+    "modifiedOn": "2022-06-24T12:30:54.442Z"
+  },
+  {
+    "id": "builtin_text-j7O8XB",
+    "formData": {
+      "text$en": "Sure! Are you looking for movies or TV shows?",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Would you like movie recs or show recs?",
+        "Great! Do you want me to recommend movies or TV shows?"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-24T12:35:02.347Z",
+    "modifiedOn": "2022-06-24T12:35:02.347Z"
+  },
+  {
+    "id": "builtin_text-gnCIyQ",
+    "formData": {
+      "text$en": "I didn't quite get that. Could you try again?",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-24T12:40:09.621Z",
+    "modifiedOn": "2022-06-24T12:40:09.621Z"
+  },
+  {
+    "id": "builtin_text-afHgBo",
+    "formData": {
+      "text$en": "Nice, what do you want to know about this title? More about the cast, a trailer or the ratings?",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Alright, do you want to see a trailer, learn about the cast or find out the ratings?"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-25T09:19:23.575Z",
+    "modifiedOn": "2022-06-25T10:37:34.472Z"
+  },
+  {
+    "id": "builtin_text-02kjPD",
+    "formData": {
+      "text$en": "Is it one of these instead? If so, which one?",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-25T10:23:12.272Z",
+    "modifiedOn": "2022-06-25T10:23:12.272Z"
+  },
+  {
+    "id": "builtin_text-VwE2fz",
+    "formData": {
+      "text$en": "I'm sorry, I'm afraid in that case I can't help you. ",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-25T10:43:29.686Z",
+    "modifiedOn": "2022-06-25T10:43:29.686Z"
+  },
+  {
+    "id": "builtin_text-GYIuj-",
+    "formData": {
+      "text$en": "Okay, let me know if there's something else I can help you with.",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Okay, let me know what else I can do for you.",
+        "Alright, I'm here if you need me for something else.",
+        "Okay :)"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-25T10:48:20.539Z",
+    "modifiedOn": "2022-06-25T10:48:20.539Z"
+  },
+  {
+    "id": "builtin_text-FGCjtt",
+    "formData": {
+      "text$en": "You're welcome!",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Anytime :)",
+        "You're very welcome!",
+        "Glad I could help!",
+        "Anything for you!"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-25T11:05:44.303Z",
+    "modifiedOn": "2022-06-25T11:05:44.303Z"
+  },
+  {
+    "id": "builtin_text-syrQSn",
+    "formData": {
+      "text$en": "Bye :)",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Goodbye 👋 ",
+        "See ya :)",
+        "See you soon!",
+        "Until next time!",
+        "Bye-bye ✌️ ",
+        "Have a good day!"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-25T11:06:43.432Z",
+    "modifiedOn": "2022-06-25T12:47:39.705Z"
+  },
+  {
+    "id": "builtin_text-QwguYL",
+    "formData": {
+      "text$en": "Alright, who am I looking for?",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Can you tell me their name?",
+        "What's their name?",
+        "Okay, I just need a name :)"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-25T12:16:31.077Z",
+    "modifiedOn": "2022-06-25T12:16:31.077Z"
+  },
+  {
+    "id": "builtin_text-qiVjvT",
+    "formData": {
+      "text$en": "Is this who you were looking for?",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        ""
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-25T12:18:07.110Z",
+    "modifiedOn": "2022-06-25T12:18:07.110Z"
+  },
+  {
+    "id": "builtin_text-tlbfoj",
+    "formData": {
+      "text$en": "Was this correct?",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Was this helpful?",
+        "Was this what you were expecting?"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-25T12:19:26.046Z",
+    "modifiedOn": "2022-06-25T12:19:26.046Z"
+  },
+  {
+    "id": "builtin_text-aKj4Uv",
+    "formData": {
+      "text$en": "Nice! Thank you for the feedback!",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Nice, glad I could help!",
+        "🤓",
+        "😌",
+        "Coolio :)",
+        "Cool, thanks for letting me know!"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-25T12:23:06.110Z",
+    "modifiedOn": "2022-06-25T15:57:35.997Z"
+  },
+  {
+    "id": "builtin_text-zS3uSb",
+    "formData": {
+      "text$en": "I'm sorry. I'll try and do better next time.",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Apologies. Thank you for letting me know."
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-25T12:24:16.174Z",
+    "modifiedOn": "2022-06-25T12:24:16.174Z"
+  },
+  {
+    "id": "builtin_text-gM6SBT",
+    "formData": {
+      "text$en": "I'll see what I can find ☺️",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-25T15:07:26.201Z",
+    "modifiedOn": "2022-06-25T15:07:26.201Z"
+  },
+  {
+    "id": "builtin_text-DkugGz",
+    "formData": {
+      "text$en": "Here's what I can do for you 🤓",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-25T15:41:29.590Z",
+    "modifiedOn": "2022-06-25T15:41:29.590Z"
+  },
+  {
+    "id": "builtin_text-gxHZVW",
+    "formData": {
+      "text$en": "**Ask me to search for an actor 💃 **\nI can give you information about any actor you can think of.\n\n**Ask me to search for a movie or tv show 🎥**\nI can look for any title you want.\n\n**Ask me for recommendations ✨**\nI'll tell you about some popular titles.\n\n**Ask me for upcoming movies 🆕**\nI'll check what'll be releasing soon.\n\n**Search for a trailer 🦥**\nYou can ask me to search for a trailer for a show or movie.\n\n**Ask me for the questionnaire ✅**\nOnce you're done testing, I can provide you with the questionnaire.",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-25T15:45:25.111Z",
+    "modifiedOn": "2022-06-25T15:54:57.394Z"
+  }
+]

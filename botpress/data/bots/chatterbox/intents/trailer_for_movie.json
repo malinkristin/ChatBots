@@ -1,0 +1,45 @@
+{
+  "name": "trailer_for_movie",
+  "utterances": {
+    "en": [
+      "a trailer for [supernatural](title)",
+      "can I get a trailer for the [umbrella academy](title)?",
+      "show me a trailer for [dune](title)",
+      "are there any trailers for [dune](title)?",
+      "are there any trailers for [the matrix](title)?",
+      "can you search for a [dune](title) trailer?",
+      "an you look for a trailer of [dune](title)",
+      "find a trailer for the show [stranger things](title)",
+      "trailer for [dune](title)",
+      "teaser for [about time](title)",
+      "i want to see a trailer for [the matrix](title)",
+      "show me a trailer for [peter pan](title)",
+      "do you have a trailer for [the social network](title)",
+      "I'm looking for a trailer for [assassin's creed](title)",
+      "can you find a trailer for [the golden compass](title)?",
+      "a trailer for [sherlock holmes](title)",
+      "do you have a trailer of [21 jump street](title)?",
+      "i'd like a trailer for [now you see me](title)",
+      "I want a trailer for [after life](title)",
+      "is there a trailer for [love actually](title)?",
+      "[peter pan](title) trailer",
+      "[harry potter](title) trailer",
+      "[lord of the rings](title) trailer",
+      "[split](title) trailer",
+      "gimme a trailer for [split](title)"
+    ]
+  },
+  "slots": [
+    {
+      "id": "tZ35AeS4Xaoc-ZlStvl5R",
+      "name": "title",
+      "entities": [
+        "any"
+      ],
+      "color": 1
+    }
+  ],
+  "contexts": [
+    "global"
+  ]
+}

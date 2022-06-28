@@ -1,0 +1,52 @@
+[
+  {
+    "id": "builtin_single-choice-inMZuZ",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "Movie",
+          "value": "movie"
+        },
+        {
+          "title": "Actor",
+          "value": "actor"
+        },
+        {
+          "title": "TV Show",
+          "value": "show"
+        }
+      ],
+      "markdown$en": true,
+      "disableFreeText$en": true,
+      "typing$en": true,
+      "text$en": "What information are you looking for?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-21T12:55:49.911Z",
+    "modifiedOn": "2022-06-21T12:55:49.911Z"
+  },
+  {
+    "id": "builtin_single-choice-MbW2af",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "Yes",
+          "value": "true"
+        },
+        {
+          "title": "No",
+          "value": "false"
+        }
+      ],
+      "markdown$en": true,
+      "disableFreeText$en": false,
+      "typing$en": true,
+      "text$en": "Was this what you were looking for?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-25T12:22:06.612Z",
+    "modifiedOn": "2022-06-25T12:22:06.612Z"
+  }
+]

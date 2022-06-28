@@ -1,0 +1,37 @@
+{
+  "name": "movie_search",
+  "utterances": {
+    "en": [
+      "I'm looking for a movie",
+      "I'm searching for a movie",
+      "I want to know more about a movie",
+      "Tell me about a movie",
+      "I want to look for a movie",
+      "Do you know this movie?",
+      "looking for a movie",
+      "movie please",
+      "I want a movie",
+      "searching for a movie",
+      "gimme a movie",
+      "looking for a show",
+      "I'm looking for a show",
+      "I'm looking for a movie",
+      "I'm searching for a show",
+      "I want a show",
+      "I want to search for a show",
+      "let me look for a show",
+      "can you search for a show",
+      "can you look for a show?",
+      "I want to search for a tv show",
+      "I want to look for a tv show",
+      "tv show",
+      "tv show please",
+      "a show search please",
+      "show search"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

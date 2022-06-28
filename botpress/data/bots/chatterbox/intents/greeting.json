@@ -1,0 +1,32 @@
+{
+  "name": "greeting",
+  "utterances": {
+    "en": [
+      "Good evening!",
+      "Hello",
+      "Hi",
+      "Heya",
+      "Good day to you!",
+      "Good morning!",
+      "Howdy!",
+      "Hullo",
+      "Hi, how are you?",
+      "How's it going?",
+      "Hiya",
+      "hello bot",
+      "hello friend",
+      "let's try again. hello!",
+      "hola",
+      "bonjour",
+      "hi there",
+      "sup",
+      "wake up!",
+      "hey",
+      "heyhey"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

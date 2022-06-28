@@ -1,0 +1,30 @@
+{
+  "name": "newcomers",
+  "utterances": {
+    "en": [
+      "Show me new movies",
+      "what's upcoming?",
+      "upcoming movies",
+      "upcoming stuff",
+      "what's coming soon?",
+      "what will release soon?",
+      "movies that are coming soon",
+      "movie coming out",
+      "new movies",
+      "what are some new movies coming out?",
+      "what movies are coming out soon?",
+      "what is coming soon?",
+      "tell me what's coming out soon",
+      "what are some new movies",
+      "what is new?",
+      "tell me what's upcoming soon",
+      "can you show me some upcoming movies?",
+      "some upcoming movies",
+      "Will you show me some upcoming movies?"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

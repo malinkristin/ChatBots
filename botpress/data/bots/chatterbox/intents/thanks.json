@@ -1,0 +1,29 @@
+{
+  "name": "thanks",
+  "utterances": {
+    "en": [
+      "thanks",
+      "thx",
+      "thank you",
+      "perfect thanks",
+      "merci",
+      "gracias",
+      "danke",
+      "thank you very much",
+      "ta",
+      "thanks for your help",
+      "thank you for your help",
+      "thanks for helping",
+      "thanks a lot",
+      "thanks a ton",
+      "thank you! you're the best!",
+      "yes, perfect, thank you",
+      "🙏",
+      "🙌"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "help",
+  "utterances": {
+    "en": [
+      "I need help",
+      "can you help me",
+      "Can you help me with something?",
+      "What can you help me with?",
+      "help me",
+      "help",
+      "I need assistance",
+      "Can you assist me?",
+      "What can you do?",
+      "What are you good for?",
+      "What can you do for me?",
+      "what is your function?",
+      "what is your functionality?",
+      "what are some options?",
+      "what are you good for?",
+      "what are my options?",
+      "well me what you can do",
+      "what do you do?"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

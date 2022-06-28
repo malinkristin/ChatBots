@@ -1,0 +1,38 @@
+{
+  "name": "negative",
+  "utterances": {
+    "en": [
+      "no",
+      "nope",
+      "nein",
+      "no, it's not",
+      "I think not",
+      "not",
+      "not quite",
+      "don't",
+      "nooo",
+      "noo",
+      "nah",
+      "naah",
+      "nahhh",
+      "nooooooo",
+      "not at all",
+      "definitely not",
+      "nope",
+      "nopeee",
+      "👎",
+      "sure not",
+      "probably not",
+      "false",
+      "incorrect",
+      "N",
+      "none",
+      "not really",
+      "not true"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

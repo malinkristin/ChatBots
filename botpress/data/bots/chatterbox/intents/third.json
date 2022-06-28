@@ -1,0 +1,22 @@
+{
+  "name": "third",
+  "utterances": {
+    "en": [
+      "third",
+      "third one",
+      "number three",
+      "number 3",
+      "3",
+      "last one",
+      "the last one",
+      "the third one",
+      "last option",
+      "C",
+      "third option"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

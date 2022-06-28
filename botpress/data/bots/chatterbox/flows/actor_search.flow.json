@@ -1,0 +1,26 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "description": "",
+  "nodes": [
+    {
+      "id": "40acc71c3d",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-QwguYL"
+      ],
+      "onReceive": [
+        "actor_search {\"name\":\"{{event.preview}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Feeback.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

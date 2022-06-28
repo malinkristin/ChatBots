@@ -1,0 +1,524 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "description": "",
+  "nodes": [
+    {
+      "id": "3ff3c6c305",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-E7Mchr"
+      ],
+      "onReceive": [
+        "say #!builtin_text-gM6SBT",
+        "call_imdb_api {\"title\":\"{{event.preview}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "affirmation"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "42583e57a3",
+      "name": "yes",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'cast'",
+          "conditionType": "intent",
+          "node": "cast"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'trailer'",
+          "conditionType": "intent",
+          "node": "trailer"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'rating'",
+          "conditionType": "intent",
+          "node": "ratings"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'negative'",
+          "conditionType": "intent",
+          "node": "okay_done"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "error"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-afHgBo"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "8dbf7fa5e5",
+      "name": "no",
+      "next": [
+        {
+          "condition": "true",
+          "node": "affirmation-copy"
+        }
+      ],
+      "onEnter": [
+        "other_movie {}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "b4085c756e",
+      "name": "cast",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "call_imdb_cast {\"movieNumber\":\"0\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "6f757e0d30",
+      "name": "affirmation",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'positive'",
+          "conditionType": "intent",
+          "node": "yes"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'negative'",
+          "conditionType": "intent",
+          "node": "no"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "823d57c777",
+      "name": "trailer",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "call_imdb_trailer {\"movieNumber\":\"0\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "2253843877",
+      "name": "ratings",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "call_imdb_ratings {\"movieNumber\":\"0\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "71c0653e31",
+      "name": "error",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "yes"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-gnCIyQ"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "b6211964ca",
+      "name": "affirmation-copy",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'first'",
+          "conditionType": "intent",
+          "node": "yes-copy"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'second'",
+          "conditionType": "intent",
+          "node": "yes-copy-copy"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'third'",
+          "conditionType": "intent",
+          "node": "yes-copy-copy-1"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'negative'",
+          "conditionType": "intent",
+          "node": "sorry"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-02kjPD"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "5242936839",
+      "name": "ratings-copy",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "call_imdb_ratings {\"movieNumber\":\"1\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "3e9e14ead1",
+      "name": "yes-copy",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'cast'",
+          "conditionType": "intent",
+          "node": "cast-copy"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'trailer'",
+          "conditionType": "intent",
+          "node": "trailer-copy"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'rating'",
+          "conditionType": "intent",
+          "node": "ratings-copy"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'negative'",
+          "conditionType": "intent",
+          "node": "okay_done"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "error-copy"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-afHgBo"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "18ddadd9e0",
+      "name": "cast-copy",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "call_imdb_cast {\"movieNumber\":\"1\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "4adb989e1e",
+      "name": "trailer-copy",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "call_imdb_trailer {\"movieNumber\":\"1\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "66fc46d9ae",
+      "name": "error-copy",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "yes-copy"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-gnCIyQ"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "0c74d3836f",
+      "name": "ratings-copy-copy",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "call_imdb_ratings {\"movieNumber\":\"2\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "f317a202bb",
+      "name": "yes-copy-copy",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'cast'",
+          "conditionType": "intent",
+          "node": "cast-copy-copy"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'trailer'",
+          "conditionType": "intent",
+          "node": "trailer-copy-copy"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'rating'",
+          "conditionType": "intent",
+          "node": "ratings-copy-copy"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'negative'",
+          "conditionType": "intent",
+          "node": "okay_done"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "error-copy-copy"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-afHgBo"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "5ccfce6cb1",
+      "name": "cast-copy-copy",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "call_imdb_cast {\"movieNumber\":\"2\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "5e2af39495",
+      "name": "trailer-copy-copy",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "call_imdb_trailer {\"movieNumber\":\"2\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "b4b06f0461",
+      "name": "error-copy-copy",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "yes-copy-copy"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-gnCIyQ"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "107771e84f",
+      "name": "ratings-copy-copy-1",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "call_imdb_ratings {\"movieNumber\":\"3\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "85c1de396f",
+      "name": "yes-copy-copy-1",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'cast'",
+          "conditionType": "intent",
+          "node": "cast-copy-copy-1"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'trailer'",
+          "conditionType": "intent",
+          "node": "trailer-copy-copy-1"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'rating'",
+          "conditionType": "intent",
+          "node": "ratings-copy-copy-1"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'negative'",
+          "conditionType": "intent",
+          "node": "okay_done"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "error-copy-copy-1"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-afHgBo"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "6dcca7d818",
+      "name": "cast-copy-copy-1",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "call_imdb_cast {\"movieNumber\":\"3\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "f1137adc13",
+      "name": "trailer-copy-copy-1",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "call_imdb_trailer {\"movieNumber\":\"3\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "b476c34bd2",
+      "name": "error-copy-copy-1",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "yes-copy-copy-1"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-gnCIyQ"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "e4552a5f4c",
+      "name": "sorry",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-VwE2fz"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "b52c844e03",
+      "name": "okay_done",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-GYIuj-"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

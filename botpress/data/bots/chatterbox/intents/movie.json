@@ -1,0 +1,17 @@
+{
+  "name": "movie",
+  "utterances": {
+    "en": [
+      "movie",
+      "movies",
+      "movies please",
+      "movie please",
+      "for movies"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "movie",
+    "global"
+  ]
+}

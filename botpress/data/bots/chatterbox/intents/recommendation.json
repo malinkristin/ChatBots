@@ -1,0 +1,32 @@
+{
+  "name": "recommendation",
+  "utterances": {
+    "en": [
+      "can you recommend something?",
+      "what's good these days?",
+      "recommend a movie",
+      "recommend a show",
+      "what's your favorite movie?",
+      "favourite movie?",
+      "rec me somethin",
+      "recc me something",
+      "rec",
+      "recc",
+      "what's best",
+      "can you rec me something",
+      "I'm looking for recommendations",
+      "I want recommendations",
+      "I want recs",
+      "I want movie recommendations",
+      "I want recommendations for tv shows",
+      "can you recommend anything",
+      "popular movies please",
+      "what are some popular movies?",
+      "what are some popular shows at the moment?"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

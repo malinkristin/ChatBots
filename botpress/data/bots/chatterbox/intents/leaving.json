@@ -1,0 +1,30 @@
+{
+  "name": "leaving",
+  "utterances": {
+    "en": [
+      "bye",
+      "bye :)",
+      "goodbye",
+      "byebye",
+      "seeya",
+      "see ya",
+      "have a nice day",
+      "ciao",
+      "good-bye",
+      "toodles",
+      "BYE",
+      "bye 👋",
+      "👋",
+      "see you soon",
+      "see you later",
+      "thanks bye",
+      "thank you goodbye",
+      "sleep well",
+      "good night"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

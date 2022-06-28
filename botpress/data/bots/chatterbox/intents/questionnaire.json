@@ -1,0 +1,27 @@
+{
+  "name": "questionnaire",
+  "utterances": {
+    "en": [
+      "I want to end testing",
+      "I am done testing",
+      "I want the questionnaire",
+      "I'm ready for the questionnaire",
+      "I want to fill out the questionnaire",
+      "I have finished testing",
+      "I want to fill out the quiz",
+      "link me the questionnaire",
+      "i'm done",
+      "link me to the quiz",
+      "can I have the link for the questionnaire",
+      "quiz",
+      "questionnaire",
+      "can you give me the questionnaire?",
+      "can I have the questionnaire?",
+      "Do you have the questionnaire?"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

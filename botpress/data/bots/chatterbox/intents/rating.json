@@ -1,0 +1,15 @@
+{
+  "name": "rating",
+  "utterances": {
+    "en": [
+      "rating",
+      "the ratings",
+      "the rating please",
+      "ratings"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

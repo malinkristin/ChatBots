@@ -1,0 +1,19 @@
+{
+  "name": "tv_show",
+  "utterances": {
+    "en": [
+      "for tv shows",
+      "shows",
+      "tv shows",
+      "tv shows please",
+      "shows please",
+      "for shows please",
+      "for shows"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "shows",
+    "global"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "cast",
+  "utterances": {
+    "en": [
+      "cast",
+      "cast please",
+      "more about the cast",
+      "the cast"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

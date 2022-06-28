@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [
+      "say #!builtin_text-syrQSn"
+    ],
+    "next": []
+  },
+  "startNode": "entry",
+  "description": "",
+  "nodes": [
+    {
+      "id": "a74cb583ef",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-syrQSn"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

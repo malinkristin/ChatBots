@@ -1,0 +1,105 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "re-entry",
+  "nodes": [
+    {
+      "id": "58a637911b",
+      "name": "none_message",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-iVBzXn"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "ae754f009a",
+      "name": "re-entry",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'greeting'",
+          "conditionType": "intent",
+          "node": "entry"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'recommendation'",
+          "conditionType": "intent",
+          "node": "recommendation.flow.json#entry"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'movie_search'",
+          "conditionType": "intent",
+          "node": "movie_search.flow.json"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'leaving'",
+          "conditionType": "intent",
+          "node": "leaving.flow.json#entry"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'thanks'",
+          "conditionType": "intent",
+          "node": "thanks.flow.json#entry"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'help'",
+          "conditionType": "intent",
+          "node": "help.flow.json"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'actor_search'",
+          "conditionType": "intent",
+          "node": "actor_search.flow.json"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'trailer_for_movie'",
+          "conditionType": "intent",
+          "node": "movie_trailer.flow.json"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'questionnaire'",
+          "conditionType": "intent",
+          "node": "questionnaire.flow.json"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'newcomers'",
+          "conditionType": "intent",
+          "node": "newcomers.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "none_message"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "entry",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-c80Q_c",
+        "say #!builtin_text-nQJvPm"
+      ],
+      "onReceive": null
+    }
+  ]
+}

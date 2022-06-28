@@ -1,0 +1,46 @@
+{
+  "name": "positive",
+  "utterances": {
+    "en": [
+      "yes",
+      "yup",
+      "great",
+      "wonderful",
+      "love it",
+      "yes, exactly",
+      "exactly",
+      "indeed",
+      "absolutely",
+      "go ahead",
+      "yess",
+      "yesss",
+      "yeah",
+      "yea",
+      "ye",
+      "definitely yes",
+      "definitely",
+      "all good",
+      "looks good",
+      "yes for sure",
+      "true",
+      "correct",
+      "absolutely",
+      "seems good",
+      "nice",
+      "yes perfect",
+      "yes please",
+      "yup",
+      "yah",
+      "yaaas",
+      "yas",
+      "yes 😍",
+      "yess 😍",
+      "that would be nice",
+      "that would be great"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

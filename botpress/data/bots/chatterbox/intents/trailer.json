@@ -1,0 +1,15 @@
+{
+  "name": "trailer",
+  "utterances": {
+    "en": [
+      "trailer",
+      "the trailer",
+      "a trailer please",
+      "trailer please"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}
